@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /*
         adapt font-size
-          example: _24px, 2em, 1.5rem
+          example: _24px, _2em, _1.5rem
         */
         if (className.slice(-2, ) == "px" || className.slice(-2, ) == "em") {
           font.style.fontSize = className.slice(1, );
