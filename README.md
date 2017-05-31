@@ -32,7 +32,7 @@
 
   * `color`を指定したい時の例  
 
-  ```HTML
-  <font class="_#F00">#F00になります</font>
-  <font class="_#DADADA">#DADADAになります</font>
-  ```
+    ```HTML
+    <font class="_#F00">#F00になります</font>
+    <font class="_#DADADA">#DADADAになります</font>
+    ```
