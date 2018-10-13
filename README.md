@@ -4,6 +4,7 @@
 
 `Text Style JavaSctipt` の略で、CSSを書かずにテキストのスタイル（`font-size`, `color`）を指定することを可能にするライブラリです。
 
+[【サンプルページ】](https://7110.github.io/textyle.js/)
 
 ## 使用方法
 
