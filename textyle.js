@@ -16,7 +16,7 @@ function textyle() {
       if (className.slice(0, 1) == '_') {
 
         /*
-        adapt font-size
+        font-size
           example: _24px, _2em, _1.5rem, 150%
         */
         if (className.slice(-2, ) == "px" || className.slice(-2, ) == "em" || className.slice(-1, ) == "%") {
@@ -24,8 +24,8 @@ function textyle() {
         }
 
         /*
-          adapt color
-            example: _#F00, _#DADADA, rgb(0,0,0), rgba(255,255,255,0.3)
+        color
+          example: _#F00, _#DADADA, rgb(0,0,0), rgba(255,255,255,0.3)
         */
         else if (className.slice(1, 2) == "#" && (className.length - 2) % 3 == 0 || className.slice(1, 4) == "rgb") {
           targets[i].style.color = className.slice(1, );
