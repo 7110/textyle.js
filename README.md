@@ -8,14 +8,29 @@
 
 ## 使用方法
 
-HTMLから **textyle.js** を読み込んでください。
+1. HTMLから **textyle.js** を読み込んでください。
 
-```HTML
-<body>
+  ```HTML
+  <body>
 
-  <!-- srcには textyle.js のパスを指定してください -->
-  <script type="text/javascript" src="https://7110.github.io/textyle.js/textyle.js"></script>
-</body>
+    <!-- srcには textyle.js のパスを指定してください -->
+    <script type="text/javascript" src="https://7110.github.io/textyle.js/textyle.js"></script>
+  </body>
+  ```
+
+2. `textyle();`を実行する記述を読み込みの後に書いてください。
+
+  ※ HTMLの読み込みと解析の完了時に実行するように記述
+
+  ```HTML
+    <script type="text/javascript" src="https://7110.github.io/textyle.js/textyle.js"></script>
+
+    <script type="text/javascript">
+    // Execute textyle()
+    document.addEventListener('DOMContentLoaded', function() {
+      textyle();
+    });
+    </script>
 ```
 
 
